@@ -12,7 +12,7 @@
     "autoprefixer": "10.4.20",
     "bcrypt": "^5.1.1",
     "clsx": "^2.1.1",
-    "next": "^15.0.3",
+    "next": "15.0.4-canary.43",
     "next-auth": "^4.24.10",
     "pnpm": "^9.14.4",
     "postcss": "8.4.49",
