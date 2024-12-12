@@ -113,11 +113,11 @@ async function dropAllTables() {
 export async function GET() {
   try {
     await client.sql`BEGIN`;
+    // await dropAllTables();
     await seedUsers();
     await seedCustomers();
     await seedInvoices();
     await seedRevenue();
-    // await dropAllTables();
     await client.sql`COMMIT`;
 
     return Response.json({ message: "Database seeded successfully" });
